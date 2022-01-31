@@ -4,19 +4,87 @@ body{
     text-align: center;
 }
 
-.navbar{
+nav{ 
+    color: #ADB5BD;
+    animation: nav-load 700ms;
+}
+
+nav ul{
+    font-size: 25px;
+    margin: 0px;
     display: flex;
     justify-content: flex-end;
-    color: #ADB5BD;
+}
+
+nav li{
+    
+    list-style: none;
+    padding: 0px 20px;
+    margin: 0 10px;
+}
+
+nav li:hover {
+    border-radius: 10%;
+    color: #2D6A4F;
 }
 
 img{
-    margin: 150px 0px 50px 0px;
+    animation: img 700ms;
+    margin: 0px;
     border-radius: 50%;
     height: 250px;
+    
 }
 
 .presentation{
-    font-size: 30px;
+    animation: presentation 700ms;
+    position: relative;
+    font-size: 48px;
     color: #ADB5BD;
+}
+
+#alex{
+    font-weight: bold;
+}
+
+@keyframes nav-load {
+    0% {
+        transform: translateY(-1000%);
+    }
+
+    90% {
+        transform: translateY(50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes img {
+    0% {
+        transform: translateY(-50%);
+    }
+
+    90% {
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes presentation {
+    0% {
+        transform: translateY(-50%);
+    }
+
+    90% {
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
