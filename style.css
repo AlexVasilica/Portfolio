@@ -1,0 +1,22 @@
+body{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    background-color: #343A40;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    color: #ADB5BD;
+}
+
+img{
+    margin: 150px 0px 50px 0px;
+    border-radius: 50%;
+    height: 250px;
+}
+
+.presentation{
+    font-size: 30px;
+    color: #ADB5BD;
+}
