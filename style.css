@@ -6,30 +6,27 @@ body{
 
 nav{ 
     color: #ADB5BD;
-    animation: nav-load 700ms;
-}
-
-nav ul{
+    animation: nav-load 1.5s;
     font-size: 25px;
     margin: 0px;
     display: flex;
     justify-content: flex-end;
 }
 
-nav li{
-    
-    list-style: none;
-    padding: 0px 20px;
+nav a{
+    text-decoration: none;
+    padding: 15px 20px;
     margin: 0 10px;
+    color: inherit;
 }
 
-nav li:hover {
+nav a:hover {
     border-radius: 10%;
     color: #2D6A4F;
 }
 
 img{
-    animation: img 700ms;
+    animation: img 1.5s;
     margin: 0px;
     border-radius: 50%;
     height: 250px;
@@ -37,7 +34,7 @@ img{
 }
 
 .presentation{
-    animation: presentation 700ms;
+    animation: presentation 1.5s;
     position: relative;
     font-size: 48px;
     color: #ADB5BD;
@@ -47,13 +44,28 @@ img{
     font-weight: bold;
 }
 
+#quote{
+    margin-top: 100px;
+    height: 150px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 25px;
+    animation: quote 1.5s;
+    color: #C1BDB3;
+}
+
+
+h1{
+    width: 100%;
+    color:#2D6A4F;
+    background-color: #99A1A6;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
 @keyframes nav-load {
     0% {
         transform: translateY(-1000%);
-    }
-
-    90% {
-        transform: translateY(50%);
     }
 
     100% {
@@ -66,9 +78,8 @@ img{
         transform: translateY(-50%);
     }
 
-    90% {
-        transform: translateY(5%);
-    }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 
     100% {
         transform: translateY(0);
@@ -79,12 +90,14 @@ img{
     0% {
         transform: translateY(-50%);
     }
-
-    90% {
-        transform: translateY(5%);
-    }
-
+    from { opacity: 0; }
+    to   { opacity: 1; }
     100% {
         transform: translateY(0);
     }
+}
+
+@keyframes quote {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
