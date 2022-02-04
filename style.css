@@ -7,7 +7,7 @@ body{
 nav{ 
     color: #ADB5BD;
     animation: nav-load 1.5s;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0px;
     display: flex;
     justify-content: flex-end;
@@ -26,15 +26,15 @@ nav a:hover {
 
 img{
     animation: presentation 1.5s;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 50%;
-    height: 350px;
+    height: 250px;
 }
 
 .presentation{
     animation: presentation 1.5s;
     position: relative;
-    font-size: 60px;
+    font-size: 48px;
     color: #ADB5BD;
 }
 
@@ -67,8 +67,20 @@ h2{
     padding-left: 80px;
 }
 
-.project-list{
+.project-list a{
+    padding: 30px;
     text-decoration: none;
+}
+
+.footer{
+    margin-top: 20px;
+    color: #FFFFFF;
+    background-color: #2d3436;
+    height: 100px;
+}
+
+.footer a{
+    padding: 30px;
 }
 
 @keyframes nav-load {

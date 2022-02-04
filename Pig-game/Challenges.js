@@ -59,14 +59,11 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     }
 });
 
- document.querySelector('.btn-set').addEventListener('click', function() {
+ document.querySelector('.btn-set').addEventListener('click', function()  {
     var input = document.querySelector('.final-score').value;
     document.getElementById('x').innerHTML = input;
-    if(input) {
+    if(input) 
         winningScore = input;
-    } else {
-        winningScore = 100;
-    }
 });
 
 document.querySelector('.btn-hold').addEventListener('click', function() {

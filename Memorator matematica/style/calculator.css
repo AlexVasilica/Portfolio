@@ -1,0 +1,39 @@
+body {
+  background: #2d3436;
+  font-family: sans-serif;
+}
+
+#calc-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 96vh;
+}
+
+#calculator {
+  max-width: 50%;
+}
+
+input[type="button"] {
+  background-color: #7f8fa6;
+  width: 75px;
+  border: solid;
+  border-color: #ff7675;
+  height: 55px;
+  cursor: pointer;
+  margin: -3px;
+}
+
+input[type="text"] {
+  display: flex;
+  width: 290px;
+  height: 30px;
+  border: solid #7f8fa6;
+  background-color: #7f8fa6;
+  margin: -4px;
+}
+
+input[value] {
+  font-size: 18px;
+  color: #2f3640;
+}
