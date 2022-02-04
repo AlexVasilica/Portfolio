@@ -21,7 +21,7 @@ nav a{
 }
 
 nav a:hover {
-    border-radius: 10%;
+    animation: zoom 1s;
     color: #2D6A4F;
 }
 
@@ -45,22 +45,37 @@ img{
 }
 
 #quote{
-    margin-top: 100px;
-    height: 150px;
-    font-family: 'Yellowtail', cursive;
+    margin: 100px;
+    height: 130px;
     font-size: 25px;
+    font-family: 'Just Another Hand', cursive;
     animation: quote 1.5s;
     color: #C1BDB3;
 }
-
 
 h1{
     width: 100%;
     color:#2D6A4F;
     background-color: #99A1A6;
-    
     display: flex;
     justify-content: flex-start;
+}
+
+h2{ 
+    font-size: 48px;
+    display: flex;
+    flex-shrink: 3;
+    color: #ADB5BD;
+    padding-left: 100px;
+}
+
+@keyframes zoom {
+    0% {
+    transform: scale(1, 1);
+    }
+    100% {
+    transform: scale(1.3, 1.3);
+    }
 }
 
 @keyframes nav-load {
