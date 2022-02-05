@@ -10,7 +10,7 @@ nav{
     font-size: 30px;
     margin: 0px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 nav a{
@@ -62,9 +62,9 @@ h1{
 h2{ 
     font-size: 48px;
     display: flex;
+    justify-content: center;;
     flex-shrink: 3;
     color: #ADB5BD;
-    padding-left: 80px;
 }
 
 .project-list a{
@@ -72,18 +72,36 @@ h2{
     text-decoration: none;
     font-size: 30px;
     color: inherit;
-    
+    color:#2D6A4F;
 }
 
-.footer{
-    margin-top: 20px;
+.bottom-container{
+    width: 100%;
+    position:absolute;
+    bottom:1;
+    left:0;
     color: #FFFFFF;
     background-color: #2d3436;
-    height: 100px;
+    height: 150px;
 }
 
-.footer a{
-    padding: 30px;
+.bottom-container a{
+    font-weight: bold;
+    margin: 10px 30px;
+    line-height: 4;
+    color: #ADB5BD;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: none;
+}
+
+.bottom-container p{
+    color: #395B64;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+}
+
+.bottom-container a:hover{
+    color: #2D6A4F;
 }
 
 @keyframes nav-load {
