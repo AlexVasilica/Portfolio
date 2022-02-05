@@ -15,7 +15,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 30px;
     margin: 0 10px;
     color: inherit;
 }
@@ -72,7 +72,7 @@ h2{
     text-decoration: none;
     font-size: 30px;
     color: inherit;
-    color:#2D6A4F;
+    color:#6DB49B;
 }
 
 .bottom-container{
@@ -86,6 +86,7 @@ h2{
 }
 
 .bottom-container a{
+    font-size: 20px;
     font-weight: bold;
     margin: 10px 30px;
     line-height: 4;
@@ -94,14 +95,46 @@ h2{
     text-decoration: none;
 }
 
+.bottom-container a:hover{
+    color: #2D6A4F;
+}
+
 .bottom-container p{
     color: #395B64;
     font-family: 'Merriweather', sans-serif;
     font-weight: bold;
 }
 
-.bottom-container a:hover{
-    color: #2D6A4F;
+.myButton {
+	
+	background:linear-gradient(to bottom, #A7D694 15%, #6DB49B 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:normal;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    margin:30px 0px 40px 0px;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #6DB49B 15%, #A7D694 100%);
+	background-color:#408c99;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#contact{
+    font-size: 25px;
+    color:#A7D694;
 }
 
 @keyframes nav-load {
