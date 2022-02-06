@@ -75,6 +75,10 @@ h2{
     color:#6DB49B;
 }
 
+.project-list a:hover{
+    color:#A7D694; 
+}
+
 .bottom-container{
     width: 100%;
     position:absolute;
