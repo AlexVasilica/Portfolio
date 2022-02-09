@@ -141,6 +141,7 @@ h2{
     color:#A7D694;
 }
 
+
 @keyframes nav-load {
     0% {
         transform: translateY(-1000%);
@@ -165,4 +166,16 @@ h2{
 @keyframes quote {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media (max-width: 600px){
+    body{
+        background-color:#6DB49B;
+    }
+    h2{
+        font-size: 60px;
+    }
+    p{
+        font-size: 20px;
+    }
 }

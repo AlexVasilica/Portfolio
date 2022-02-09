@@ -75,3 +75,9 @@ body{
 .btn4:hover::before{
   height: 475%;
 }
+
+@media (max-width: 600px) {
+  body{
+    background-color: #ff7675;
+  }
+}
