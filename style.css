@@ -169,13 +169,34 @@ h2{
 }
 
 @media (max-width: 600px){
-    body{
-        background-color:#6DB49B;
-    }
-    h2{
-        font-size: 60px;
+    img{
+        animation: presentation 1.5s;
+        margin-top: 10px;
+        border-radius: 50%;
+        height: 350px;
     }
     p{
+        font-size: 60px;
+    }
+    .bottom-container a{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px 30px;
+        line-height: 2;
+        color: #ADB5BD;
+        font-family: 'Merriweather Sans', sans-serif;
+        text-decoration: none;
+    }
+    .bottom-container p{
+        color: #395B64;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: bold;
         font-size: 20px;
+        margin: 5px;
+    }
+    .project-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
