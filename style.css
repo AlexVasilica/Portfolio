@@ -42,6 +42,15 @@ img{
     font-weight: bold;
 }
 
+.about{
+    color:#ADB5BD;
+    font-size: 25px;;
+    width: 50%;
+    margin: 0 auto;
+    text-indent: 50px;
+    line-height: 1.8;
+}
+
 #quote{
     margin: 100px;
     height: 130px;
