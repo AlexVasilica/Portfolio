@@ -186,6 +186,9 @@ h2{
     p{
         font-size: 60px;
     }
+    .about{
+        text-indent: 5px;
+    }
     .bottom-container a{
         font-size: 25px;
         font-weight: bold;
